@@ -6,10 +6,20 @@
   box-sizing: border-box;
 }
 
-#canvas1 {
+/* #canvas1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50% -50%);
   border: 5px solid black;
+} */
+
+#canvas1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  width: 50%;
+  height: 50%;
+  /* background: red; */
 }
